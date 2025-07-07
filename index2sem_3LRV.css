@@ -1,0 +1,74 @@
+.card-img-top {
+      object-fit: 20%;
+      height: 300px;
+ }
+.card {
+      margin-bottom: 1.5rem;
+}
+.bg-primary{
+    background-color: rgb(8, 43, 95) !important;
+}
+
+.btn-primary,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:visited {
+  background-color: #979508; 
+  border-color: #899206;     
+}
+.btn-primary:hover{
+   background-color: #2d3002
+}
+  .perfil-grid {
+      display: grid;
+      grid-template-columns: 2fr 3fr;
+      grid-template-rows: auto auto;
+      gap: 10px;
+      background-color: white;
+      padding: 20px;
+      max-width: 700px;
+      margin: auto;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    .foto {
+      grid-row: 1 / span 2;
+      grid-column: 1 / 2;
+      border: 8px solid #aaa709; /* azul */
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .foto img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .nombre {
+      grid-row: 1 / 2;
+      grid-column: 2 / 3;
+      font-size: 1.3rem;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .experiencia {
+      grid-row: 2 / 3;
+      grid-column: 2 / 3;
+      text-align: justify;
+      color: #555;
+    }
+
+
+     .carousel-item img {
+  height: auto;
+  max-height: 300px;
+ 
+}
+    
+ .footer-marino {
+      background-color: #001f3f; 
+      color: #ffffff; 
+    }
